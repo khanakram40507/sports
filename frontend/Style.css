@@ -1,0 +1,138 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+   background: linear-gradient(to right, #f8c0c8, #2b2d69);
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(to right, #2b2d69, #792b6b);
+  padding: 10px 30px;
+  color: white;
+  position: relative;
+}
+
+.navbar-logo {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.navbar-logo::before {
+  content: '🌀'; /* Replace with your logo if needed */
+  margin-right: 8px;
+}
+
+.navbar-links {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  font-size: 16px;
+}
+
+.navbar-links a {
+  color: white;
+  text-decoration: none;
+  position: relative;
+}
+
+.navbar-links a:hover {
+  text-decoration: underline;
+}
+
+.navbar-register {
+  background-color: #ff6666;
+  padding: 8px 15px;
+  border-radius: 4px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  position: relative;
+  margin-left: 20px;
+}
+
+.navbar-line {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+h1 {
+  text-align: center;
+}
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  margin: 20px 0;
+  
+}
+
+.ronaldo, .messi {
+  width: 300px;
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+.ronaldo {
+  background-image: url('ronaldo.webp');
+}
+
+.messi {
+  background-image: url('Lionel-Messi.webp');
+}
+
+
+.match {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  margin: 10px auto;
+  width: 300px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.match strong {
+  font-size: 18px;
+}
+
+#matches {
+  max-width: 700px;
+  margin: 0 auto 40px auto;
+  padding: 0 10px;
+}
+
+#loading {
+  text-align: center;
+  color: white;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.match {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 15px 20px;
+  margin: 15px auto;
+  width: 100%;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  font-size: 18px;
+  color: #333;
+}
+
+.match strong {
+  font-size: 20px;
+  display: block;
+  margin-bottom: 8px;
+}
